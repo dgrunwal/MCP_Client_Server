@@ -7,7 +7,7 @@ pip install mcp openai
 set OPENAI_API_KEY=<enter key with no spaces> 
 A key with spaces returns the following error:
 
-You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
+You can find your API key at <API key URL>.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}
 Note: Confirm API key has no spaces by running 
 
 echo "%OPENAI_API_KEY%"
