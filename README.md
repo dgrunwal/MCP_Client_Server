@@ -11,6 +11,7 @@ You can find your API key at <API key URL>.', 'type': 'invalid_request_error', '
 Note: Confirm API key has no spaces by running 
 
 echo "%OPENAI_API_KEY%"
+
 3.	Run python mcp_client.py
 Note: Both files need to be in the same folder, then just run mcp_client.py — it automatically starts mcp_server.py as a subprocess.
 
